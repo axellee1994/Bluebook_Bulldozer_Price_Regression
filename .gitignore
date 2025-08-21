@@ -24,11 +24,10 @@ Thumbs.db
 # Ignore log files
 *.log
 
-# Ignore large CSV files
-data/Train.csv
-data/TrainAndValid.csv
-data/train_tmp.csv
+# Ignore all CSV files
+data/*.csv
 
 # Allow zipped versions to be tracked
+!data/Valid.zip
 !data/Train.zip
 !data/TrainAndValid.zip
